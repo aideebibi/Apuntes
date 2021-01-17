@@ -51,7 +51,7 @@ python manage.py startapp <nombre_app>
 
 Una vez que hayas ejecutado esa instrucción, verás que se ha creado un nuevo directorio con el nombre de tu aplicación.
 
-<img src="img/creacion_app.png" width=450px>
+<img src="img/creacion_app.png" width=750px>
 
 Si entramos a ese nuevo directorio encontrarás los siguientes archivos:
 * _init_.py: Su finalidad es marcar la raíz del proyecto
@@ -162,7 +162,7 @@ python manage.py migrate
 
 Si queremos ver el contenido de nuestra BD podemos utilizar "DB Browser SQLite3". 
 
-<img src="img/ver_bd.png" width=180px>
+<img src="img/ver_bd.png" width=230px>
 
 Podemos ver que hay tablas que nosotros no hemos definido, pero que son fundamentales para que Django funcione. Y que en la tablas que nostros definimos, se creó un campo **"id"** por default que se va a usar **SIEMPRE** como llave primaria, a menos que lo modifiques. 
 
