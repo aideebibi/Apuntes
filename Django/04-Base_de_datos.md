@@ -144,7 +144,7 @@ Migrations for '<nombre_aplicacion>':
 
 Una vez hecho eso, ya podemos ver nuestra BD, llamada "bd.sqlite3" y se encuentra a la misma altura que el archivo "manage.py"
 
-![](img/indicacion_bd.png)
+<img src="img/indicacion_bd.png" width=150px>
 
 Ahora para indicarle a Django que debe de **crear las tablas** especificadas en el archivo "models.py" debemos ejecutar el siguiente comando:
 
@@ -161,7 +161,7 @@ python manage.py migrate
 
 Si queremos ver el contenido de nuestra BD podemos utilizar "DB Browser SQLite3". 
 
-![](img/ver_bd.png)
+<img src="img/ver_bd.png" width=150px>
 
 Podemos ver que hay tablas que nosotros no hemos definido, pero que son fundamentales para que Django funcione. Y que en la tablas que nostros definimos, se creó un campo **"id"** por default que se va a usar **SIEMPRE** como llave primaria, a menos que lo modifiques. 
 
