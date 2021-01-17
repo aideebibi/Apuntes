@@ -54,8 +54,7 @@ def animales(request):
 
 ---
 ## Uso de variables 
-Para el uso de las variables, vamos a usar el contexto. Se mandará como parte de un diccionario en sus argumentos
-De modo que tengamos:
+Para el uso de las variables, vamos a usar el contexto. Se mandará como parte de un diccionario en sus argumentos, de modo que tengamos:
 ```python
 contexto = Context({ "<clave>" : <variable> })
 ```
@@ -109,7 +108,7 @@ Cuando django encuentra un "." (*PUNTO*) realiza la siguiente búsqueda:
 3. Busca si es un **método** correspondiente a una clase o a un objeto.
 4. Revisa si ese punto es una llamada al **índice** de una lista
 
---
+---
 ## Uso de listas en contexto y plantillas
 Para el uso de una lista, se tiene que poner en el diccionario la clave y la lista. Por ejemplo:
 
@@ -148,7 +147,7 @@ Entonces si queremos desplegar cada uno de los elementos de la lista y darles un
 ```
 Como podemos ver se hizo un bucle foreach, en donde recorremos la lista de la clave "temas" del contexto.
 
-En ese if lo que hace Django es evaluar que en efecto **exista** esa variable y que además **tenga** un valor. Por lo que si la lista estuviera vácia, no entraría a ejecutar lo que hay dentro del "if". 
+En ese "if" lo que hace Django es evaluar que en efecto **exista** esa variable y que además **tenga** un valor. Por lo que si la lista estuviera vácia, no entraría a ejecutar lo que hay dentro del "if". 
 
 Notamos que las estructuras de control (if/for/while) en django van entre llaves **simples**, siguiendo el siguiente formato:
 ```python
@@ -244,6 +243,7 @@ def cursoC(request):
 ```
 Como podemos observar, se utilizamos a la plantilla "cursoC.html" y **NO** la plantilla "base.html". 
 
+---
 ---
 # Referencias:
 * https://docs.djangoproject.com/en/2.2/ref/templates/builtins/
