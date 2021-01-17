@@ -53,7 +53,7 @@ Una vez que hayas ejecutado esa instrucción, verás que se ha creado un nuevo d
 
 **#NOTA: INSERTAR IMAGEN DE CREACIÓN DE LA APP**
 
-![CREACIÓN DE LA APP](Django/img/creacion_app.png)
+![](img/creacion_app.png)
 
 Si entramos a ese nuevo directorio encontrarás los siguientes archivos:
 * _init_.py: Su finalidad es marcar la raíz del proyecto
