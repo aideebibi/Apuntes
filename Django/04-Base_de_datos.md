@@ -51,7 +51,7 @@ python manage.py startapp <nombre_app>
 
 Una vez que hayas ejecutado esa instrucción, verás que se ha creado un nuevo directorio con el nombre de tu aplicación.
 
-![](img/creacion_app.png)
+<img src="img/creacion_app.png" width=450px>
 
 Si entramos a ese nuevo directorio encontrarás los siguientes archivos:
 * _init_.py: Su finalidad es marcar la raíz del proyecto
@@ -62,7 +62,8 @@ Si entramos a ese nuevo directorio encontrarás los siguientes archivos:
 ## Indicarle a Django que hay una nueva aplicación
 Una vez que hayamos creado la aplicación, hay que indicarle a Django que estamos usando dicha aplicación. Esto lo hacemos editando el archivo "settings.py" que se encuentra en el directorio de nuestro proyecto, es decir, fuera del directorio de nuestra aplicación.
 
-![](img/indicacion_settings.png)
+<img src="img/indicacion_settings.png" width=150px>
+
 
 En ese archivo hay una lista llamada **INSTALLED_APPS**, donde se encuentran todas las aplicaciones que usa el proyecto por default. Y cuando nosotros creamos una aplicación debemos de registarla en esa lista.
 
@@ -161,7 +162,7 @@ python manage.py migrate
 
 Si queremos ver el contenido de nuestra BD podemos utilizar "DB Browser SQLite3". 
 
-<img src="img/ver_bd.png" width=150px>
+<img src="img/ver_bd.png" width=180px>
 
 Podemos ver que hay tablas que nosotros no hemos definido, pero que son fundamentales para que Django funcione. Y que en la tablas que nostros definimos, se creó un campo **"id"** por default que se va a usar **SIEMPRE** como llave primaria, a menos que lo modifiques. 
 
