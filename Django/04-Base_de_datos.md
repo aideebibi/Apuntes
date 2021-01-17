@@ -52,6 +52,7 @@ python manage.py startapp <nombre_app>
 Una vez que hayas ejecutado esa instrucción, verás que se ha creado un nuevo directorio con el nombre de tu aplicación.
 
 **#NOTA: INSERTAR IMAGEN DE CREACIÓN DE LA APP**
+
 ![CREACIÓN DE LA APP](/img/creacion_app.png)
 
 Si entramos a ese nuevo directorio encontrarás los siguientes archivos:
