@@ -167,5 +167,57 @@ Si queremos ver el contenido de nuestra BD podemos utilizar "DB Browser SQLite3"
 Podemos ver que hay tablas que nosotros no hemos definido, pero que son fundamentales para que Django funcione. Y que en la tablas que nostros definimos, se creó un campo **"id"** por default que se va a usar **SIEMPRE** como llave primaria, a menos que lo modifiques. 
 
 ---
+## Insertar registros
+Para insertar los registros de una BD, puede ser de forma manual desde la consola o desde un formulario.
+1. **Desde consola:**
+    
+    1.1. Abrimos el shell de python con la instrucción:
+    ```python 
+    python manage.py shell
+    ```
+
+    1.2. Indicamos la clase/tabla con la que vamos a trabajar:
+    ```python 
+    from <nombre_aplicacion>.models import <Tabla>
+    ```
+
+    1.3 Creamos una variable para insertar los valores que queramos en nuestra tabla. En la sección del valor es necesario aclarar que si es de tipo numérico no tendrá que entrecomillado:
+    ```python 
+    <variable> = <Tabla>(<campo_1> = "<valor_1>", <campo_2> = "<valor_2>", <campo_n> = "<valor_n>")
+    ```
+
+    1.4 Guardamos el registro
+    ```python  
+    <variable>.save()
+    ```
+
+    Ejemplo:
+     ```python 
+     Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32  
+        Type "help", "copyright", "credits" or "license" for more information.
+        (InteractiveConsole)
+        >>> from gestionPedidos.models import Articulos
+        >>> art = Articulos(nombre = "mesa", sección = "decoracion", precio = 90)
+        >>> art.save()
+        >>>
+      ```
+    
+
+2. **Desde formulario**
+
+---
+## Actualizaer registros
+
+
+---
+### Borrar registros
+
+
+
+
+
+
+---
+---
 ## Referencias:
-* 
+* Videos 11-15 de píldoras informáticas
