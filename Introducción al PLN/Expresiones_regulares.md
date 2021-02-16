@@ -1,7 +1,7 @@
 # Expresiones regulares
 Una expresión regular es la secuencia de caracteres usado principalmente para encontrar o reemplazar patrones en una cadena de texto o en un archivo.
 
-<img src="img/exp_reg.PNG" width=230px>
+<img src="./img/exp_reg.PNG" width=230px>
 
 Hay algunos patrones que tienen un significado especial, por ejemplo "\d" se emplea para localizar números dentro del texto  
 Comodines que nos ayudan a buscar o parsear cadenas.
