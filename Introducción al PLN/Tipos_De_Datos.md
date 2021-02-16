@@ -5,15 +5,15 @@ Este tipo de datasets presentan su información de forma muy organizada
 Generalmente se presentan con una estrucutra tabular.
 Por ejemplo:
 
-<img src="img/structured_dataset_1.png" width=230px>
-<img src="img/structured_dataset_2.png" width=230px>
+<img src="./img/structured_dataset_1.PNG" width=230px>
+<img src="./img/structured_dataset_2.PNG" width=230px>
 
 ### No estructurados:
 No tienen un número determinado de dimensiones.
 No cuentan con una estrcutura fija
 Los ejemplos más comunes de este tipo de datos son los archivos de audio, video, imagen y texto.
 
-<img src="img/no_structured_dataset_1.png" width=230px>
+<img src="./img/no_structured_dataset_1.PNG" width=230px>
 
 Y son considerados como no estrucutrados porque al ser procesados se convierten en largas cadenas de caracteres que a simple vista no pueden ser interpretados por los seres humanos.
 
@@ -28,11 +28,11 @@ Entonces básicamente los datos de tipo texto son todos aquellos que involucran 
 # Definición del Procesamiento de Lenguaje Natural
 El procesamiento del lenguaje natural o PLN es la rama de la ciencia de datos que se ocupa de derivar información útil de los datos de tipo texto. Contiene varias técnicas y procesos diferentes que se utilizan para analizar, comprender y utilizar los datos para resolver las necesidades comerciales.
 
-<img src="img/npl.png" width=230px>
+<img src="./img/npl.PNG" width=230px>
 
 Para el PLN se deben de realizar de forma general tres pasos:
 1. Análisis: En esta etapa se analiza toda la información presentada
 2. Identificación: Se identifican los conceptos clave que ayudarán a plantear una solución al problema.
 3. Modelo: Son las reglas que se emplearán para la clasificación de la información obtenida.
 
-<img src="img/ejemplo_pln_1.png" width=230px>
+<img src="./img/ejemplo_pln_1.PNG" width=230px>
