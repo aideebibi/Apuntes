@@ -43,6 +43,7 @@ Podemos verlo de forma más gráfica en la siguiente imagen:
 ### Ejemplo de programa HTTP
 A continuación implementaremos un pequeño programa de Python en donde podamos ver cómo funciona un navegador, cómo el navegador envía el protocolo HTTP, cómo reacciona un servidor al protocolo HTTP y finalmente cómo se devuelve un documento.
 
+#### Cliente
 Programaremos el siguiente código:
 
 ```python 
@@ -81,11 +82,13 @@ Una vez que hayamos terminado de escribir nuestro request, debemos de enviarlo, 
 `mysock.send(cmd)`
 
 Después esperamos la respuesta del servidor, esto lo hacemos con  un ciclo while que consiste en recibir toda la información que el servidor mande. Y mientras exista informaxión, se va a decodificar y a imprimir
-```while True:
+```
+while True:
     data = mysock.recv(512) 
     if len(data) < 1: 
         break 
-    print(data.decode(),end='') ```
+    print(data.decode(),end='') 
+```
 
 Finalmente cerramos la conexión del socket
 `mysock.close()`
