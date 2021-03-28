@@ -6,14 +6,15 @@ Antes de empezar con los temas propios de Django, empezaremos por entender como 
 
 ### Request y Respond
 Si quisiéramos profundizar un poco más sobre cómo funciona el cliente y el servidor con una petición "request" tendríamos que ir a la documentación de HTTP, en donde podemos ver lo siguiente:
-<img src="./img/request-doc.PNG" width=350px>
+
+<img src="./img/request-doc.PNG">
 
 ### Conexiones TCP / Sockets
 ¿Qué es un socket? 
 
 La manera más simple de definir un socket es imaginando una llamada telefónica, en donde una persona A llama a una persona B, la persona B al contestar pregunta ¿Quién habla? a lo que la otra responde "Soy A" y una vez que se haya confirmado la identidad de ambas personas empieza el intercambio de información entre A y B. Entonces podemos entender a un socket como una llamada telefónica entre computadoras. La definicón formal de socket es la siguiente:
 
-<img src="./img/definicion-socket.PNG" width=350px>
+<img src="./img/definicion-socket.PNG">
 
 ### Puertos TCP
 Podemos verlo como una extención telefónica, en donde no tenemos una dirección fija de una aplicación, pero sí hay un puerto de comunicación fija.
@@ -27,7 +28,7 @@ Analizando el contenido de una URL tenemos lo siguiente:
 * Host: Es el nombre del dominio, que es una forma simbólica de llegar/llamar a la dirección de un servidor
 * Documento: Muestra al usuario el documento que sse ha solicitado, en este ejemplo es "page1.html"
 
-<img src="./img/http-ejemplo.PNG" width=350px>
+<img src="./img/http-ejemplo.PNG">
 
 Una vez entendido eso, veamos como se hace un Request con el protocolo HTTP
 1. Conexión en el puerto 80 o 443
@@ -36,7 +37,8 @@ Una vez entendido eso, veamos como se hace un Request con el protocolo HTTP
 Notamos que se hace con el siguiente formato: *tipo_request documento datos_extra* en donde los datos_extra es cualquier información adicional que queramos que nos retorne el navegador, por ejemplo cookies
 
 Podemos verlo de forma más gráfica en la siguiente imagen:
-<img src="./img/http-request.PNG" width=350px>
+
+<img src="./img/http-request.PNG">
 
 ### Ejemplo de programa HTTP
 A continuación implementaremos un pequeño programa de Python en donde podamos ver cómo funciona un navegador, cómo el navegador envía el protocolo HTTP, cómo reacciona un servidor al protocolo HTTP y finalmente cómo se devuelve un documento.
@@ -89,4 +91,5 @@ Finalmente cerramos la conexión del socket
 `mysock.close()`
 
 Entonces cuando corremos este programa obtendremos una salida como la siguiente:
-<img src="./img/salida-python-socket.PNG" width=350px>
+
+<img src="./img/salida-python-socket.PNG">
