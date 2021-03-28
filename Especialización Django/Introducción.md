@@ -81,11 +81,11 @@ Una vez que hayamos terminado de escribir nuestro request, debemos de enviarlo, 
 `mysock.send(cmd)`
 
 Después esperamos la respuesta del servidor, esto lo hacemos con  un ciclo while que consiste en recibir toda la información que el servidor mande. Y mientras exista informaxión, se va a decodificar y a imprimir
-` while True:`
-`    data = mysock.recv(512) `
-`    if len(data) < 1: `
-`        break `
-`    print(data.decode(),end='') `
+```while True:
+    data = mysock.recv(512) 
+    if len(data) < 1: 
+        break 
+    print(data.decode(),end='') ```
 
 Finalmente cerramos la conexión del socket
 `mysock.close()`
