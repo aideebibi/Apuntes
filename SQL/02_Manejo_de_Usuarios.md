@@ -1,7 +1,3 @@
-___
-Nota: Todo esto está en el previo #7
-___
-
 # Habilitar historial de comandos
 Para eso se debe de instalar el paquete de rlwrap, que nos va a permitir acceder al historial de comandos
 ```bash
@@ -43,8 +39,34 @@ spool <ruta_absoluta/nombre_spool.txt> append
 ```
 
 # Creación de usuarios
+Para crear un usuario, se hace lo siguiente.
 ```sql
-create user <nombre_usuario> identified as <contraseña> quota unlimited on users;
+create user <nombre_usuario> identified by <contraseña> quota unlimited on users;
 ```
 ¿Qué significa todo eso?
+Con la instrucción de *quota unlimited on users*, lo que se indica es que el usuario que estoy creando va a poder hacer uso de nuestro disco de forma ilimitada en el table space users. Dejarlo así puede representar un problema, pues al no tener ninguna restricción el usaurio podrá acabarse todo el espacio del disco.
 
+Sin embargo cuando creamos un usuario se crea sin ningun permiso, entonces después de su creación se debe de poner los permisos que puede tener.
+```sql
+grant create session, create table to <nombre_usuario>;
+```
+La explicación de los permisos que le asignamos en el comando anterior es la siguiente:
+* create session -> crea sesiones
+* create table -> crea tablas
+
+# Eliminación de usuarios
+Para eliminar a un usuario junto con todos sus esquemas y objetos ejecutamos la siguiente instrucción:
+```sql
+drop user <nombre_usuario> cascade;
+```
+
+# Cambio de usuarios
+Cuando necesitamos entrar a la sesión de otro usuario, podemos ejecutar el siguiente comando:
+```sql
+connect <nombre_usuario>
+password
+```
+___
+Nota: Todo esto está en el previo #7
+Clase #26
+___
