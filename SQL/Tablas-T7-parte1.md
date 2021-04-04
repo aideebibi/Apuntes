@@ -1,3 +1,7 @@
+___
+Nota: Todo esto está en el previo #7
+___
+
 # Habilitar historial de comandos
 Para eso se debe de instalar el paquete de rlwrap, que nos va a permitir acceder al historial de comandos
 ```bash
@@ -26,7 +30,7 @@ alias sqlplus='rlwrap sqlplus'
 # Spool
 El ambiente de oracle te permite crear un spool, que funciona como una bitácora. Ayuda para ver todos los comandos realizados, se debe crear un spool cada que se inicie una sesión. 
 ```sql
-spool */ruta/absoluta/nombre_spool.txt*  
+spool <ruta_absoluta/nombre_spool.txt>  
 ```
 
 Si no se cierra de forma correcta el spool, podemos perder la información que escribimos en el spool, para evitar eso debemos de escribir la siguiente instrucción antes de cerrar la sesión.
@@ -35,7 +39,7 @@ spool off
 ```
 Si queremos continuar escribiendo en el mismo spool ejecutamos la siguiente instrucción
 ```sql
-spool */ruta/absoluta/nombre_spool.txt* append
+spool <ruta_absoluta/nombre_spool.txt> append
 ```
 
 # Creación de usuarios
