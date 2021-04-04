@@ -38,6 +38,11 @@ Si queremos continuar escribiendo en el mismo spool ejecutamos la siguiente inst
 spool <ruta_absoluta/nombre_spool.txt> append
 ```
 
+# Ejecución de un archivo sql
+```sql
+start <archivo>.sql
+```
+
 # Creación de usuarios
 Para crear un usuario, se hace lo siguiente.
 ```sql
