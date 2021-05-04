@@ -22,7 +22,7 @@ Lenguaje de control de datos. Es el lenguaje encargado de configurar y establece
 ### DQL (Data Query Language)
 Lenguaje de consulta de datos. Algunos autores clasifican a la instrucción SELECT como el único elemento de una cuarta categoría del lenguaje SQL Data Query Language (DQL).
 
-#### Transaction Control
+### Transaction Control
 Control de transacciones. Es el lenguaje empleado para crear, y administrar transacciones aplicadas a un conjunto de sentencias DML principalmente.
 
 <img src="./img/categorias_sql.PNG">
