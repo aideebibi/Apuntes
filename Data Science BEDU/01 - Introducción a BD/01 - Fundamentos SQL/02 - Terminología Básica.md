@@ -3,15 +3,15 @@ En las bases de datos relacionales existe un vocabulario específico con el obje
 
 **Dato:** Un dato es considerado la unidad mínima de información. Por sí mismo no provee un significado particular, simplemente es un ente que requiere de una interpretación para dar lugar a la información.
 
-    Por ejemplo: 36 o Enchiladas Suizas por sí mismos, son datos cuyo significado desconocemos.
+Por ejemplo: 36 o Enchiladas Suizas por sí mismos, son datos cuyo significado desconocemos.
 
 **Información:** Es un conjunto de datos que a través del procesamiento adecuado adquieren un significado en un contexto determinado.
 
-    Por ejemplo, en los datos anteriores, 36 es la edad de Mark Zuckerberg y Enchiladas Suizas es la comida favorita de la Abuelita de Batman. Es decir, le estamos dando un significado a los datos y obteniendo información.
+Por ejemplo, en los datos anteriores, 36 es la edad de Mark Zuckerberg y Enchiladas Suizas es la comida favorita de la Abuelita de Batman. Es decir, le estamos dando un significado a los datos y obteniendo información.
 
 **Base de datos:** Es un conjunto de datos con alguna característica en común, puede ser un tema, situación geográfica o algún elemento que los relacione, además de que pueden estar almacenados de manera tradicional (impresos en papel) o en formato digital como un archivo.
 
-    Las bases de datos relacionales se basan en el Modelo relacional, propuesto por Edgar F. Codd en los años setenta. Veamos algunos de sus principales elementos más adelante, te presentamos un ejemplo para que puedas observar los elementos de manera más clara):
+Las bases de datos relacionales se basan en el Modelo relacional, propuesto por Edgar F. Codd en los años setenta. Veamos algunos de sus principales elementos más adelante, te presentamos un ejemplo para que puedas observar los elementos de manera más clara):
 
 **Tabla:** Una tabla o relación es una entidad con atributos, campos o columnas y tuplas, registros o renglones. Una tabla representa a un número indefinido de elementos descritos con características en común, cada uno en un diferente renglón.
 
