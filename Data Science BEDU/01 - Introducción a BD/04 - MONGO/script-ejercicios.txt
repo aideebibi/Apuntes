@@ -1,0 +1,46 @@
+
+
+/* Ejercicio 1. Obtén los datos de contacto de cada compañía. */
+/* Campo: Project. */  {email_address:1, phone_number:1}
+
+/* Ejercicio 2. Obtén el identificador de la clase de cada calificación. */
+/* Campo: Project. */  {class_id: 1}
+
+/* Ejercicio 3. Obtén el nombre de todas las compañias fundadas en octubre. */
+/* Campo: Filter. */  {founded_month: 10}
+
+/* Ejercicio 4. Obtén el nombre de todas las compañías fundadas en 2008. */
+/* Campo: Filter. */  {founded_year: 2008}
+/* Campo: Project. */  {name:1}
+
+/* Ejercicio 5. Obtén todos los post del autor machine. */
+/* Campo: Filter. */  {author:"machine"}
+
+/* Ejercicio 6. Obtén todas las calificaciones provenientes de los grupos 357, 57 y 465. */
+/* Campo: Filter. */  {class_id: {$in: [350, 57, 465]}}
+
+/* Ejercicio 7. Obtén todas las compañías fundadas en octubre del 2008. */
+/* Campo: Filter. */  {founded_year: 2008, founded_month:10}
+
+/* Ejercicio 8. Obtén todas las compañias con más de 50 empleados. */
+/* Campo: Filter. */  {number_of_employees: {$gt: 50}}
+
+/* Ejercicio 9. Obtén las rutas con un número de paradas entre 1 y 5. */
+/* Campo: Filter. */  {$and: [{stops: {$gte: 1}}, {stops: {$lte: 5}}]}
+
+/* Ejercicio 10. Obtén la empresa con el menor número de empleados. */
+/* Campo: Filter. */  {number_of_employees: {$ne:null}}
+/* Campo: Sort. */  {number_of_employees:1}
+/* Campo: Limit. */  1
+
+/* Ejercicio 11. Obtén la empresa con el mayor número de empleados. */
+/* Campo: Sort. */  {number_of_employees:-1}
+/* Campo: Limit. */  1
+
+/* Ejercicio 12. Obtén el viaje con mayor duración. */
+/* Campo: Sort. */  {tripduration: -1}
+/* Campo: Limit. */  1
+
+/* Ejercicio 13. Obtén la historia menos comentada. */
+/* Campo: Sort. */  {tripduration: -1}
+/* Campo: Limit. */  1
