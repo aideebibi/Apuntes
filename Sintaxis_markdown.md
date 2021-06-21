@@ -66,6 +66,7 @@ class Persona(object):
 Imagen desde URL
 
 ![visual studio code logo](https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg)
+<img src= "./img/1-programa-fases.PNG">
 
 <!-- GITHUB EXTENSIONES-->
 <!-- todo lis -->
