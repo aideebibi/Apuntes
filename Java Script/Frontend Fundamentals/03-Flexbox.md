@@ -15,7 +15,7 @@ git fetch es un comando que recupera todos los cambios realizados en el servidor
 
 git merge por otro lado nos permite mezclar cambios de otras ramas hacia nuestra rama actual de trabajo.
 
-## 3. Elementos media en HTML5
+## 2. Elementos media en HTML5
 Elementos media hace referencia a archivos multimedia (ejemplo: audio, video) y afortunadamente al momento que lees esto los navegadores tienen soporte nativo para este tipo de recursos, pues, si en algún momento escuchaste sobre Flash o ActionScript, probablemente sabrás que era una tarea compleja obtener un recurso multimedia en la web, más aún, que sea compatible para la mayoría de navegadores sin que el usuario tenga que instalar o habilitar algo.
 
 > Si quieres conocer un poco más acerca de la historia de multimedia en la web, [MDN](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content) nos cuenta un poco en la documentación acerca de audio y vídeo. 
@@ -27,7 +27,7 @@ Bueno, ahora que sabemos que HTML5 nos provee soporte nativo para audio y video.
 HTML5 nos provee 2 etiquetas para trabajar con audio y vídeo, sorpresivamente dichas etiquetas son: <audio></audio> y <video></video>, además a través de JavaScript (aún no veremos de esto) podemos manipular la reproducción del contenido multimedia y mejorar la experiencia que el navegador nos ofrece por defecto. Para nuestro proyecto, solo usaremos las etiquetas pero no te limitamos a que averigües sobre la interacción con JavaScript
 
 
-## 4. Flexbox
+## 3. Flexbox
 Flexbox es un método disponible en CSS para alinear y estructurar visualmente el contenido de un elemento HTML. Flexbox nos permite usar la propiedad de display para indicar cuando un elemento y su contenido, en caso de tener, puede alinearse de manera flexible.
 
 El elemento que recibe la propiedad display: flex se le conoce como flex container, mientras que a los elementos contenidos en el elemento en mención se le conoce como flex items.
@@ -46,7 +46,7 @@ prueba
 
 <img src= "./img/flexbox.PNG">
 
-## Position: fixed
+## 4. Position: fixed
 
 La propiedad position con el valor de fixed es muy útil, esto debido a que esta propiedad position permite que el elemento al que se le aplica, salga del flujo normal de la web.
 
