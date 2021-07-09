@@ -290,3 +290,59 @@ DevOps reúne a individuos, procesos y tecnología mediante la automatización d
 
 * Azure DevOps: Use herramientas de colaboración de desarrollo como canalizaciones de alto rendimiento, repositorios Git privados gratuitos, paneles Kanban configurables y completas pruebas de carga basadas en la nube y automatizadas. Anteriormente conocido como Visual Studio Team Services.
 * Azure DevTest Labs: Cree rápidamente entornos de Windows y Linux a petición para probar o realizar demostraciones de las aplicaciones directamente desde canalizaciones de implementación.
+
+---
+
+# Introducción a las cuentas de Azure
+Para crear y usar los servicios de Azure, necesita una suscripción de Azure. Al completar los módulos de Microsoft Learn, la mayoría de las veces se crea una suscripción temporal de forma automática, que se ejecuta en un entorno denominado espacio aislado de Microsoft Learn. Cuando trabaje con aplicaciones y necesidades empresariales propias, tendrá que crear una cuenta de Azure y se creará una suscripción de forma automática. Después de crear una cuenta de Azure, puede crear suscripciones adicionales. Por ejemplo, es posible que la empresa use una única cuenta de Azure para el negocio y suscripciones independientes para los departamentos de desarrollo, marketing y ventas. Una vez que ha creado una suscripción de Azure, puede empezar a crear recursos de Azure dentro de cada suscripción.
+
+<img src="./img/scope-levels.png">
+
+Si no está familiarizado con Azure, puede registrarse para obtener una cuenta gratuita en el [sitio web de Azure](https://azure.microsoft.com/es-mx/) y, de este modo, empezar a explorar sin coste alguno. Cuando esté listo, puede optar por actualizar la cuenta gratuita. Puede crear una suscripción que le permita comenzar a pagar por los servicios de Azure que necesita usar y a los que no puede acceder mediante una cuenta gratuita.
+
+## Crear una cuenta de Azure
+
+Puede comprar el acceso a Azure directamente desde Microsoft, si se registra en el sitio web de Azure, o bien a través de un representante de Microsoft. También puede comprar el acceso a Azure a través de un partner de Microsoft. Los partners del programa Proveedor de soluciones en la nube ofrecen una amplia gama de soluciones en la nube administradas y completas para Azure.
+
+Para obtener más información sobre cómo crear una cuenta de Azure, vea el módulo de aprendizaje [Creación de una cuenta de Azure](https://docs.microsoft.com/es-es/learn/modules/create-an-azure-account/).
+
+## ¿Qué es la cuenta gratuita de Azure?
+
+La cuenta gratuita de Azure incluye lo siguiente:
+
+* Acceso gratuito a productos populares de Azure durante 12 meses.
+* Crédito para gastar durante los primeros 30 días.
+* Acceso a más de 25 productos que siempre son gratuitos.
+
+La cuenta gratuita de Azure es una manera excelente para que los nuevos usuarios empiecen y exploren. Para registrarse, necesita un número de teléfono, una tarjeta de crédito y una cuenta de Microsoft o de GitHub. La información de la tarjeta de crédito solo se usa para la verificación de identidad. No se le cobrará por ningún servicio hasta que actualice a una suscripción de pago.
+
+## ¿Qué es la cuenta de estudiante gratuita de Azure?
+
+La oferta de la [cuenta de estudiante](https://azure.microsoft.com/es-mx/free/students/) gratuita de Azure incluye lo siguiente:
+
+* Acceso gratuito a determinados servicios de Azure durante 12 meses.
+* Un crédito para usar en los primeros 12 meses.
+* Acceso gratuito a determinadas herramientas de desarrollo de software.
+
+La cuenta de estudiante gratuita de Azure es una oferta para estudiantes que ofrece 100 USD de crédito y herramientas de desarrollo gratuitas. Además, puede registrarse sin tarjeta de crédito.
+
+## ¿Qué es el espacio aislado de Azure?
+
+En muchos de los ejercicios de Learn se usa una tecnología denominada espacio aislado, que crea una suscripción temporal que se agrega a la cuenta de Azure. Esta suscripción temporal le permite crear recursos de Azure para la duración de un módulo de Learn. Learn limpia de forma automática los recursos temporales una vez que haya completado el módulo.
+
+Cuando complete un módulo de Learn, puede usar la suscripción personal para finalizar los ejercicios que incluye. Pero el espacio aislado es el método preferido para usar, ya que permite crear y probar recursos de Azure sin costo alguno.
+
+---
+
+# Introducción a un caso práctico
+A lo largo de las rutas de aprendizaje Aspectos básicos de Azure, trabajará con Tailwind Traders, un distribuidor ficticio de mejoras para el hogar. Esta empresa cuenta con ferreterías minoristas en todo el mundo y en línea.
+
+<img src="./img/tailwind-traders-web-top.png">
+
+En la actualidad, Tailwind Traders administra un centro de datos local en el que se hospeda el sitio web comercial de la empresa. En el centro de datos también se almacenan todos los datos y vídeos de streaming para sus aplicaciones. Actualmente, el departamento de TI es responsable de todas las tareas de administración de su hardware y software informáticos. Por ejemplo, imagine que trabaja como especialista de TI para el departamento de TI de la empresa. El equipo de TI controla el proceso de adquisición de nuevo hardware, instala y configura software y realiza todas las implementaciones en el centro de datos.
+
+Estas responsabilidades de administración generan varios obstáculos a la hora de proporcionar las aplicaciones a los usuarios de manera oportuna. Como profesional de TI, observa que sería ventajoso tener los servidores, el almacenamiento, las bases de datos y los demás servicios disponibles de inmediato al desarrollar e implementar aplicaciones. Quiere iniciar fácilmente un nuevo servidor o agregar servicios a las soluciones.
+
+En las demás unidades de este módulo de aprendizaje, ha obtenido información sobre algunos de los servicios basados en la nube que Tailwind Traders puede usar para abordar sus desafíos tecnológicos. Teniendo esto en cuenta, los servicios que están disponibles a través de Azure pueden ayudar a Tailwind Traders a desarrollar su negocio de forma más eficaz.
+
+A medida que complete los distintos módulos de las rutas de aprendizaje de Aspectos básicos de Azure, se analizarán los desafíos a los que se enfrenta Tailwind Traders. Verá cómo puede usar los servicios de Azure para solucionar cada uno de esos problemas a medida que surgen. Una vez que haya completado cada uno de los módulos, los conocimientos que ha adquirido al resolver los desafíos hipotéticos a los que se enfrentaba la empresa ficticia Tailwind Traders deberían ayudarle en los entornos reales.
