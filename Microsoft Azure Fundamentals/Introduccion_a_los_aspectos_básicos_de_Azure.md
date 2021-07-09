@@ -22,8 +22,6 @@ Tener conocimientos sobre la informática en la nube es útil, pero no necesario
 4. Paseo por los servicios de Azure (11 min)
 5. Introducción a las cuentas de Azure (2 min)
 6. Introducción a un caso práctico (2 min)
-7. Prueba de conocimientos (3 min)
-8. Resumen (1 min)
 
 ---
 
